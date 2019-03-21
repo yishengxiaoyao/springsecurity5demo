@@ -726,7 +726,7 @@ public class PersistentLogins implements Serializable {
 }
 ```
 ## 14.其他
-关于页面、controller和数据库的操作，请参考本文[代码]()。
+关于页面、controller和数据库的操作，请参考本文[代码](https://github.com/yishengxiaoyao/springsecurity5demo/tree/master/hibernateintegrationdemo)
 
 ## 参考文献
 [Spring Security4 Tutoril](http://websystique.com/spring-security-tutorial/)

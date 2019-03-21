@@ -73,7 +73,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .usernameParameter("username").passwordParameter("password")
                 .and().rememberMe().rememberMeParameter("remember-me").tokenValiditySeconds(86400).tokenRepository(tokenRepository).userDetailsService(userDetailsService) //remember-me功能的设置和处理类设置
                 .and().csrf()
-                .and().httpBasic().realmName().authenticationEntryPoint()
                 .and().exceptionHandling().accessDeniedPage("/Access_Denied");
     }
     //设置用户处理remember-me功能的token

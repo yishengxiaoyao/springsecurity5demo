@@ -419,12 +419,10 @@ public class CustomSuccessHandler extends SimpleUrlAuthenticationSuccessHandler 
 由于页面代码比较多，可以参考本实例中的github代码。
 需要注意的是，如果想要方式csrf攻击，需要在页面添加<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" /></strong>标志。
 在页面中，如果想要使用spring security 的tag表达式来限制内容的显示，需要读者自行实现，本文的pom文件已经添加了相应的依赖。
-## 9.打包和部署
-开启服务之后，弹出下面的页面:
 
 
 ##代码地址
-[helloworlddemo]()
+[helloworlddemo](https://github.com/yishengxiaoyao/springsecurity5demo/tree/master/helloworlddemo)
 
 ## 参考文献
 [Spring Security4 Tutoril](http://websystique.com/spring-security-tutorial/)
