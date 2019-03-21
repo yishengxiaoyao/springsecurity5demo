@@ -1,0 +1,6 @@
+com/edu/helloworld/configuration/CustomSuccessHandler.class
+com/edu/helloworld/configuration/MvcWebApplicationInitializer.class
+com/edu/helloworld/configuration/WebSecurityConfig.class
+com/edu/helloworld/configuration/WebConfig.class
+com/edu/helloworld/configuration/SecurityWebApplicationInitializer.class
+com/edu/helloworld/controller/UserController.class
